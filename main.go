@@ -15,8 +15,6 @@ import (
 	"strconv"
 	"strings"
 )
-
-//go:embed pecas.csv
 var pecasCSVPadrao []byte
 
 type Peca struct {
@@ -45,18 +43,15 @@ func (p Peca) Valor(kmAtual int) int {
 }
 
 func resolverArquivo(caminho string) (io.ReadCloser, error) {
-	// 1. Tenta abrir no caminho especificado diretamente
 	if f, err := os.Open(caminho); err == nil {
 		return f, nil
 	}
 
-	// 2. Se executado a partir da raiz do projeto, tenta dentro de algoritimo/
 	caminhoNaPasta := filepath.Join("algoritimo", caminho)
 	if f, err := os.Open(caminhoNaPasta); err == nil {
 		return f, nil
 	}
 
-	// 3. Fallback: se for o arquivo padrão 'pecas.csv', usa os dados embutidos (embed)
 	if (caminho == "pecas.csv" || filepath.Base(caminho) == "pecas.csv") && len(pecasCSVPadrao) > 0 {
 		return io.NopCloser(bytes.NewReader(pecasCSVPadrao)), nil
 	}
