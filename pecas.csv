@@ -1,0 +1,39 @@
+nome,preco,km_usada,vida_util_km,importancia
+Pastilha de freio dianteira,80,3000,15000,10
+Pastilha de freio traseira,60,6000,12000,8
+Disco de freio dianteiro,220,12000,40000,9
+Disco de freio traseiro,180,9000,40000,7
+Fluido de freio DOT4,30,500,20000,8
+Flexivel de freio,95,7000,30000,7
+Cilindro mestre de freio,260,14000,60000,8
+Manete de freio,65,2000,60000,5
+Kit relacao (corrente+coroa+pinhao),260,5000,25000,8
+Pneu dianteiro,300,4000,20000,9
+Pneu traseiro,350,6000,18000,9
+Camara de ar,40,2000,20000,5
+Bateria,180,10000,30000,7
+Amortecedor traseiro,400,15000,50000,7
+Retentor de bengala,70,5000,25000,6
+Bengala completa,520,20000,80000,6
+Vela de ignicao,35,1000,10000,6
+Filtro de ar,45,2000,12000,5
+Filtro de oleo,25,500,6000,6
+Filtro de combustivel,30,3000,15000,5
+Cabo de embreagem,40,8000,20000,6
+Disco de embreagem,320,20000,30000,8
+Cabo do acelerador,38,3000,25000,5
+Pistao com aneis,450,18000,40000,8
+Junta do cabecote,85,14000,40000,6
+Lampada de farol LED,90,500,15000,4
+Rolamento de roda,110,22000,30000,7
+Rolamento de direcao,130,18000,40000,7
+Bobina de ignicao,210,30000,45000,6
+Retificador regulador de tensao,150,12000,40000,6
+Bomba de combustivel,280,25000,60000,7
+Radiador,380,15000,70000,6
+Bomba dagua,190,16000,50000,6
+Escova do motor de partida,45,13000,30000,5
+Sensor TPS,170,11000,50000,5
+Pedal de cambio,55,4000,50000,3
+Cabo de velocimetro,35,10000,25000,3
+Espelho retrovisor,50,1000,60000,2
